@@ -1,21 +1,16 @@
-# 📝 Blog Fullstack com React + Supabase
+# React + Vite
 
-Este projeto é um blog simples desenvolvido para explorar a integração entre o frontend moderno e o Backend-as-a-Service (BaaS).
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Tecnologias
-* **React**: Biblioteca para construção da interface.
-* **Supabase**: Banco de dados PostgreSQL, Autenticação e Storage.
-* **Vite**: Ferramenta de build para um desenvolvimento rápido.
-* **Cursor IDE**: Editor focado em IA para acelerar o desenvolvimento.
+Currently, two official plugins are available:
 
-## ✨ Funcionalidades (Planejadas)
-- [ ] Listagem de posts em tempo real.
-- [ ] Criação e edição de posts (CRUD).
-- [ ] Sistema de login e permissões.
-- [ ] Upload de imagens para os posts.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ⚙️ Como executar
-1. Clone o repositório.
-2. Instale as dependências: `npm install`.
-3. Configure as variáveis de ambiente do Supabase.
-4. Inicie o servidor: `npm run dev`.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

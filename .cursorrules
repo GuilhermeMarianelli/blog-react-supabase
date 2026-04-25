@@ -1,0 +1,7 @@
+# Regras do Projeto: Blog React + Supabase
+
+- Use **Functional Components** e **Hooks**.
+- Prefira a sintaxe moderna de JavaScript (ES6+).
+- Para chamadas ao Supabase, utilize sempre uma instância única do cliente (singleton).
+- Estilo: Se usarmos Tailwind, priorize classes utilitárias.
+- Sempre verifique se o usuário está autenticado antes de permitir `POST` ou `DELETE`.
